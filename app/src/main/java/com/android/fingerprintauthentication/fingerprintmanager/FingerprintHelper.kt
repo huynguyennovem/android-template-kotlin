@@ -1,4 +1,4 @@
-package com.android.fingerprintauthentication
+package com.android.fingerprintauthentication.fingerprintmanager
 
 import android.Manifest
 import android.content.Context
