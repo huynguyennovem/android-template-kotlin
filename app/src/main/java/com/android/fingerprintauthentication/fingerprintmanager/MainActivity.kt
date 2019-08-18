@@ -1,7 +1,6 @@
-package com.android.fingerprintauthentication
+package com.android.fingerprintauthentication.fingerprintmanager
 
 import android.Manifest
-import android.annotation.SuppressLint
 import android.app.KeyguardManager
 import android.content.Context
 import android.content.pm.PackageManager
@@ -12,15 +11,12 @@ import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
-import androidx.core.content.getSystemService
-import androidx.core.hardware.fingerprint.FingerprintManagerCompat
-import java.security.AlgorithmParameterGenerator
 import java.security.KeyStore
 import javax.crypto.Cipher
 import javax.crypto.KeyGenerator
 import javax.crypto.SecretKey
-import androidx.core.content.ContextCompat.getSystemService
 import android.os.Build
+import com.android.fingerprintauthentication.R
 
 
 class MainActivity : AppCompatActivity() {

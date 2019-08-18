@@ -1,0 +1,2 @@
+Refer to this guide:
+https://medium.com/mindorks/fingerprint-authentication-using-biometricprompt-compat-1466365b4795
