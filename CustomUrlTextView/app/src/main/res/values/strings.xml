@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomUrlTextView</string>
+    <string name="signin_text">Already have an account? [Login] now</string>
+    <string name="signup_text">Have no account? [Register] now</string>
+</resources>
